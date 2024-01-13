@@ -1,0 +1,139 @@
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+ 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+$font-inter :'Space Grotesk', sans-serif;
+$background-color : var(--Shape-Clor, #FF5A30);
+$text-color : #F00;
+$background-color2 : #F00;
+$max-width : 1200px;
+$text-capitalize : capitalize;
+$text-upercase : uppercase;
+$margin-auto : auto;
+$display-flex : flex;
+$content-center : center;
+$items-center : center;
+$p-text-color : rgb(81, 81, 81);
+
+// subNavar section part 
+header{
+    background: #000;
+    color: white;
+    height: 100px;
+    padding: 20px 0;
+}
+.subNavbar{
+    max-width: $max-width;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo-section p{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.main-content{
+    display: flex;
+    gap: 40px;
+}
+.one-content{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.one-content img{
+    width: 16px;
+    height: 16px;
+}
+.one-content p {
+    text-transform: uppercase;
+     
+}
+.one-content a{
+    color: white;
+    text-decoration: none;
+}
+
+.content-text{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+// main navbar part css 
+.main-navbar{
+    background: $background-color;
+    max-width: $max-width;
+    border-radius: 10px;
+    height: 114px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+}
+.seconds-part{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.search-bar{
+    display: flex;
+    gap: 15px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.10);
+    padding: 20px 25px;
+}
+.search-bar img{
+    height: 18px;
+    width: 18px;
+}
+.search-bar input{
+    border: none;
+    background: transparent;
+    outline: none;
+    color: white;
+    font-size: 16px;
+}
+::placeholder{
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.button-bar{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.button-bar a{
+    color: white;
+     font-weight: 700;
+    text-transform: uppercase;
+}
+
+// Banner section part css 
